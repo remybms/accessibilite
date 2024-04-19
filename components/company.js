@@ -11,18 +11,18 @@ const Company = () => {
         <div className="relative">
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="flex items-center px-4 py-2 text-gray-700 hover:text-gray-900"
+                className="flex items-center text-gray-500 hover:text-black"
             >
                 Company
 
                 <img
                     src={`/images/icon-arrow-${isOpen ? 'up' : 'down'}.svg`}
                     alt={altText}
-                    className="w-4 h-4 ml-1"
+                    className="w-5 ml-1"
                 />
             </button>
             {isOpen && (
-                <div className="flex flex-col mobile:absolute right-0 mt-2 w-fit bg-white border border-gray-200 rounded-md shadow-lg">
+                <div className="flex flex-col mobile:absolute items-start right-0 mt-2 w-max bg-white border border-gray-200 rounded-md shadow-lg">
                     <a
                         href="#"
                         className="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"

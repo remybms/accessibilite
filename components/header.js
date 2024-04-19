@@ -11,13 +11,13 @@ function Header() {
                 <img src="/images/logo.svg" alt="snap's logo" className='m-5' />
 
                 <div className="flex space-x-20 items-center ">
-                    <div className="flex items-center hover:text-black">
+                    <div className="flex items-center">
                         <Features/>
                     </div>
-                    <div className="flex items-center hover:text-black">
+                    <div className="flex items-center">
                         <Company/>
                     </div>
-                    <div>
+                    <div className="hover:text-black">
                         Careers
                     </div>
                     <div className="hover:text-black">
