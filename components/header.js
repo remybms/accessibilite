@@ -1,4 +1,6 @@
 import Hamburger from "@/components/hamburger"
+import Features from "./features"
+import Company from "./company"
 
 
 function Header() {
@@ -10,12 +12,10 @@ function Header() {
 
                 <div className="flex space-x-20 items-center ">
                     <div className="flex items-center hover:text-black">
-                        Features
-                        <img src='/images/icon-arrow-down.svg' alt='arrow down' className="w-5 h-3 m-2" />
+                        <Features/>
                     </div>
                     <div className="flex items-center hover:text-black">
-                        Company
-                        <img src='/images/icon-arrow-down.svg' alt='arrow down' className="w-5 h-3 m-2" />
+                        <Company/>
                     </div>
                     <div>
                         Careers
@@ -39,7 +39,7 @@ function Header() {
                 <div className="w-10 h-10 mr-5">
                     <Hamburger />
                 </div>
-                
+
 
             </div>
         </>

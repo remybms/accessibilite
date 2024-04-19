@@ -1,6 +1,7 @@
 import { Epilogue } from "next/font/google";
 import "./globals.css";
 
+
 const epilogue = Epilogue({ subsets: ["latin"] });
 
 export const metadata = {
